@@ -90,23 +90,19 @@ class spider_razer(scrapy.Spider):
             print('reading file...')
             read_products = f.read()
             products_from_db = json.loads(read_products)
-            probandoo = []
+
             for key, value in razer_products_obj.items():
                 current_product_price = int(value['product_price'][1:].replace(',', ''))
 
                 if key in products_from_db[0]:
-                    print('ajaaaa')
                     db_product = products_from_db[0].get(key)
                     db_product_price = int(db_product['product_price'][1:].replace(',', ''))
-                    db_product['holi'] = 'testing'
 
-                    if current_product_price > db_product_price:
-                        pass
-                        # probandoo.append('new product: '+value['product_id']+' $'+value['product_price']+ 'has lower price than: '+db_product['product_id']+' $'+db_product['product_price'])
+                    offer_price = db_product_price - ((db_product_price * 10) / 100)
 
-            # write the existent products.json file with the next piece of code: ??
-            with open('probandoo.json', 'w') as file:
+                    if current_product_price < offer_price:
+                        print('product: '+db_product['product_id']+' has a new lower price!')
+                        db_product['lower_price'] = value['product_price']
+
+            with open('razer_products.json', 'w') as file:
                 file.write(json.dumps(products_from_db))
-                # for prob in probandoo:
-                #     file.write('\n')
-                #     file.write(prob)
