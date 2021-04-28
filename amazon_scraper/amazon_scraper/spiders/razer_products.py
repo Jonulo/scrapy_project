@@ -103,6 +103,11 @@ class spider_razer(scrapy.Spider):
                     if current_product_price < offer_price:
                         print('product: '+db_product['product_id']+' has a new lower price!')
                         db_product['lower_price'] = value['product_price']
+                else:
+                    print("this product was not register: \n")
+                    print(value)
+                    products_from_db[0][value['product_id']] = value
 
             with open('razer_products.json', 'w') as file:
                 file.write(json.dumps(products_from_db))
+
