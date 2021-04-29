@@ -2,6 +2,7 @@ import scrapy
 import os
 import json
 import time
+import smtplib, ssl
 
 class spider_razer(scrapy.Spider):
     name = 'razer'
@@ -103,6 +104,7 @@ class spider_razer(scrapy.Spider):
                     if current_product_price < offer_price:
                         print('product: '+db_product['product_id']+' has a new lower price!')
                         db_product['lower_price'] = value['product_price']
+                        self.send_email(db_product['product_title'], db_product_price, db_product['product_link'], value['product_price'])
                 else:
                     print("this product was not register: \n")
                     print(value)
@@ -110,4 +112,22 @@ class spider_razer(scrapy.Spider):
 
             with open('razer_products.json', 'w') as file:
                 file.write(json.dumps(products_from_db))
+
+    def send_email(self, product_title, product_price, product_link, lower_price):
+        port = 465
+        password = input("Type your password: ")
+        smtp_server = "smtp.gmail.com"
+        sender_email = "jonulodev@gmail.com"
+        receiver_email = "georgenul@live.com"
+        message = f"""
+            Subject: subject test
+
+            Product: {product_title} \n
+            Normal price: ${product_price} - new lower price: ${lower_price}. \n
+            Link: {product_link}"""
+
+        context = ssl.create_default_context()
+        with smtplib.SMTP_SSL(smtp_server, port, context=context) as server:
+            server.login(sender_email, password)
+            server.sendmail(sender_email, receiver_email, message)
 
