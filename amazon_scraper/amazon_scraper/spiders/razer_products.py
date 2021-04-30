@@ -102,9 +102,16 @@ class spider_razer(scrapy.Spider):
                     offer_price = db_product_price - ((db_product_price * 10) / 100)
 
                     if current_product_price < offer_price:
-                        print('product: '+db_product['product_id']+' has a new lower price!')
-                        db_product['lower_price'] = value['product_price']
-                        self.send_email(db_product['product_title'], db_product['product_price'], db_product['product_link'], value['product_price'])
+                        if 'lower_price' in db_product:
+                            lower_prod_price = int(db_product['lower_price'].replace(',', ''))
+                            if current_product_price < lower_prod_price:
+                                print('product: '+db_product['product_id']+' has a new lower price!')
+                                db_product['lower_price'] = value['product_price']
+                                self.send_email(db_product['product_title'], db_product['product_price'], db_product['product_link'], value['product_price'])
+                        else:
+                            print('product: '+db_product['product_id']+' has a new lower price!')
+                            db_product['lower_price'] = value['product_price']
+                            self.send_email(db_product['product_title'], db_product['product_price'], db_product['product_link'], value['product_price'])
                 else:
                     print("this product was not register: \n")
                     print(value)
