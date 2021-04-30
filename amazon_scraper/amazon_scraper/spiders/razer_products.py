@@ -93,18 +93,18 @@ class spider_razer(scrapy.Spider):
             products_from_db = json.loads(read_products)
 
             for key, value in razer_products_obj.items():
-                current_product_price = int(value['product_price'][1:].replace(',', ''))
+                current_product_price = int(value['product_price'].replace(',', ''))
 
                 if key in products_from_db[0]:
                     db_product = products_from_db[0].get(key)
-                    db_product_price = int(db_product['product_price'][1:].replace(',', ''))
+                    db_product_price = int(db_product['product_price'].replace(',', ''))
 
                     offer_price = db_product_price - ((db_product_price * 10) / 100)
 
                     if current_product_price < offer_price:
                         print('product: '+db_product['product_id']+' has a new lower price!')
                         db_product['lower_price'] = value['product_price']
-                        self.send_email(db_product['product_title'], db_product_price, db_product['product_link'], value['product_price'])
+                        self.send_email(db_product['product_title'], db_product['product_price'], db_product['product_link'], value['product_price'])
                 else:
                     print("this product was not register: \n")
                     print(value)
@@ -115,7 +115,8 @@ class spider_razer(scrapy.Spider):
 
     def send_email(self, product_title, product_price, product_link, lower_price):
         port = 465
-        password = input("Type your password: ")
+        # password = input("Type your password: ")
+        password = "Jonulodev274."
         smtp_server = "smtp.gmail.com"
         sender_email = "jonulodev@gmail.com"
         receiver_email = "georgenul@live.com"
