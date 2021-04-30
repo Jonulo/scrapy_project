@@ -3,12 +3,14 @@ import os
 import json
 import time
 import smtplib, ssl
+from decouple import config
 
 class spider_razer(scrapy.Spider):
     name = 'razer'
+    WEBSITE_URL = config('WEBSITE_URL')
+    EMAIL_PASS = config('EMAIL_PASS')
     start_urls = [
-        'https://www.amazon.com.mx/s?k=razer&rh=n%3A9482640011%2Cp_89%3ARazer&dc&__mk_es_MX=%C3%85M%C3%85%25'
-        # 'https://www.amazon.com.mx/s?k=razer&i=videogames&rh=n%3A9482640011%2Cp_89%3ARazer&dc&page=3&__mk_es_MX=%C3%85M%C3%85%25&qid=1619130862&ref=sr_pg_3'
+        WEBSITE_URL
     ]
 
     custom_settings = {
@@ -44,8 +46,6 @@ class spider_razer(scrapy.Spider):
         time.sleep(5)
         yield response.follow(next_page_button, callback=self.parse_get_all_products, cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': 1})
 
-        # yield razer_products_obj
-
     def parse_get_all_products(self, response, **kwargs):
         print('*' * 10)
         print('*' * 10)
@@ -58,7 +58,7 @@ class spider_razer(scrapy.Spider):
 
         print('*' * 10)
         print(page_count)
-        page_count += 1
+        page_count += 2
 
         for idx, prod in enumerate(prod_div):
             new_razer_product = {}
@@ -122,8 +122,7 @@ class spider_razer(scrapy.Spider):
 
     def send_email(self, product_title, product_price, product_link, lower_price):
         port = 465
-        # password = input("Type your password: ")
-        password = "Jonulodev274."
+        password = self.EMAIL_PASS
         smtp_server = "smtp.gmail.com"
         sender_email = "jonulodev@gmail.com"
         receiver_email = "georgenul@live.com"
