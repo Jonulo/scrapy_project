@@ -4,14 +4,14 @@ import json
 import time
 import smtplib, ssl
 from decouple import config
+from urllib.error import HTTPError
 
 class spider_razer(scrapy.Spider):
+    handle_httpstatus_list = [503]
     name = 'razer'
     WEBSITE_URL = config('WEBSITE_URL')
     EMAIL_PASS = config('EMAIL_PASS')
-    start_urls = [
-        WEBSITE_URL
-    ]
+    start_urls = [WEBSITE_URL]
 
     custom_settings = {
         'FEED_URI': 'razer_products.json',
@@ -24,27 +24,38 @@ class spider_razer(scrapy.Spider):
     }
 
     def parse(self, response):
-        time.sleep(5)
-        prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
-        razer_products_obj = {}
-        main_web = 'https://www.amazon.com.mx'
+        try:
+            time.sleep(5)
+            prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
+            razer_products_obj = {}
+            main_web = 'https://www.amazon.com.mx'
 
-        for idx, prod in enumerate(prod_div):
-            new_razer_product = {}
-            current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
+            for idx, prod in enumerate(prod_div):
+                new_razer_product = {}
+                current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
 
-            new_razer_product['product_id'] = prod.xpath(current_prod+'/@data-asin').get(default="000000")
-            new_razer_product['product_title'] = prod.xpath(current_prod+'//span[@class="a-size-medium a-color-base a-text-normal"]/text()').get(default="NoTitle")
-            new_razer_product['product_price'] = prod.xpath(current_prod+'//span[@class="a-price-whole"]/text()').get(default="00")
-            new_razer_product['product_link'] = main_web+prod.xpath(current_prod+'//a[@class="a-link-normal a-text-normal"]/@href').get(default="NoLink")
-            new_razer_product['page'] = 1
+                new_razer_product['product_id'] = prod.xpath(current_prod+'/@data-asin').get(default="000000")
+                new_razer_product['product_title'] = prod.xpath(current_prod+'//span[@class="a-size-medium a-color-base a-text-normal"]/text()').get(default="NoTitle")
+                new_razer_product['product_price'] = prod.xpath(current_prod+'//span[@class="a-price-whole"]/text()').get(default="00")
+                new_razer_product['product_link'] = main_web+prod.xpath(current_prod+'//a[@class="a-link-normal a-text-normal"]/@href').get(default="NoLink")
+                new_razer_product['page'] = 1
 
-            razer_products_obj[new_razer_product['product_id']] = new_razer_product
+                razer_products_obj[new_razer_product['product_id']] = new_razer_product
 
-        next_page_button = response.xpath('//ul[@class="a-pagination"]//li[@class="a-last"]/a/@href').get()
+            next_page_button = response.xpath('//ul[@class="a-pagination"]//li[@class="a-last"]/a/@href').get()
 
-        time.sleep(5)
-        yield response.follow(next_page_button, callback=self.parse_get_all_products, cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': 1})
+            time.sleep(5)
+            yield response.follow(
+                next_page_button,
+                callback=self.parse_get_all_products,
+                cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': 2}
+            )
+
+        except:
+            print("HTTPResponse Error!!")
+            time.sleep(10)
+            yield scrapy.http.Request(response.url, callback=self.parse)
+
 
     def parse_get_all_products(self, response, **kwargs):
         print('*' * 10)
@@ -58,7 +69,7 @@ class spider_razer(scrapy.Spider):
 
         print('*' * 10)
         print(page_count)
-        page_count += 2
+        page_count += 1
 
         for idx, prod in enumerate(prod_div):
             new_razer_product = {}
@@ -76,7 +87,12 @@ class spider_razer(scrapy.Spider):
 
         if next_page_button and page_count < 2:
             time.sleep(5)
-            yield response.follow(next_page_button, callback=self.parse_get_all_products, cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': page_count})
+            yield response.follow(
+                next_page_button,
+                callback=self.parse_get_all_products,
+                cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': page_count},
+                errback=self.handle_error
+            )
         else:
             File_is_empty = os.stat("razer_products.json").st_size == 0
             if File_is_empty is True:
