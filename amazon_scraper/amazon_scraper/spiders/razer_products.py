@@ -25,7 +25,7 @@ class spider_razer(scrapy.Spider):
 
     def parse(self, response):
         try:
-            time.sleep(5)
+            time.sleep(10)
             prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
             razer_products_obj = {}
             main_web = 'https://www.amazon.com.mx'
@@ -44,7 +44,7 @@ class spider_razer(scrapy.Spider):
 
             next_page_button = response.xpath('//ul[@class="a-pagination"]//li[@class="a-last"]/a/@href').get()
 
-            time.sleep(5)
+            time.sleep(10)
             yield response.follow(
                 next_page_button,
                 callback=self.parse_get_all_products,
@@ -71,6 +71,7 @@ class spider_razer(scrapy.Spider):
             print(page_count)
 
             for idx, prod in enumerate(prod_div):
+                time.sleep(2)
                 new_razer_product = {}
                 current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
 
