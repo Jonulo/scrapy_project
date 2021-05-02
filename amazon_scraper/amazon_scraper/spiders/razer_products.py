@@ -48,58 +48,65 @@ class spider_razer(scrapy.Spider):
             yield response.follow(
                 next_page_button,
                 callback=self.parse_get_all_products,
-                cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': 2}
+                cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': 1}
             )
 
         except:
             print("HTTPResponse Error!!")
             time.sleep(10)
-            yield scrapy.http.Request(response.url, callback=self.parse)
+            yield scrapy.http.Request(response.url, callback=self.parse, dont_filter=True)
 
 
     def parse_get_all_products(self, response, **kwargs):
-        print('*' * 10)
-        print('*' * 10)
-        main_web = 'https://www.amazon.com.mx'
-        prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
-
+        print('Url crwaling: ', response.url)
         if kwargs:
             razer_products_obj = kwargs['prev_page_prods']
             page_count = kwargs['page_count']
+        try:
+            print('*' * 10)
+            main_web = 'https://www.amazon.com.mx'
+            prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
 
-        print('*' * 10)
-        print(page_count)
-        page_count += 1
+            page_count += 1
+            print(page_count)
 
-        for idx, prod in enumerate(prod_div):
-            new_razer_product = {}
-            current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
+            for idx, prod in enumerate(prod_div):
+                new_razer_product = {}
+                current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
 
-            new_razer_product['product_id'] = prod.xpath(current_prod+'/@data-asin').get(default="000000")
-            new_razer_product['product_title'] = prod.xpath(current_prod+'//span[@class="a-size-medium a-color-base a-text-normal"]/text()').get(default="NoTitle")
-            new_razer_product['product_price'] = prod.xpath(current_prod+'//span[@class="a-price-whole"]/text()').get(default="00")
-            new_razer_product['product_link'] = main_web+prod.xpath(current_prod+'//a[@class="a-link-normal a-text-normal"]/@href').get(default="NoLink")
-            new_razer_product['page'] = page_count
+                new_razer_product['product_id'] = prod.xpath(current_prod+'/@data-asin').get(default="000000")
+                new_razer_product['product_title'] = prod.xpath(current_prod+'//span[@class="a-size-medium a-color-base a-text-normal"]/text()').get(default="NoTitle")
+                new_razer_product['product_price'] = prod.xpath(current_prod+'//span[@class="a-price-whole"]/text()').get(default="00")
+                new_razer_product['product_link'] = main_web+prod.xpath(current_prod+'//a[@class="a-link-normal a-text-normal"]/@href').get(default="NoLink")
+                new_razer_product['page'] = page_count
 
-            razer_products_obj[new_razer_product['product_id']] = new_razer_product
+                razer_products_obj[new_razer_product['product_id']] = new_razer_product
 
-        next_page_button = response.xpath('//ul[@class="a-pagination"]//li[@class="a-last"]/a/@href').get()
+            next_page_button = response.xpath('//ul[@class="a-pagination"]//li[@class="a-last"]/a/@href').get()
 
-        if next_page_button and page_count < 2:
-            time.sleep(5)
-            yield response.follow(
-                next_page_button,
+            if next_page_button and page_count < 4:
+                time.sleep(10)
+                yield response.follow(
+                    next_page_button,
+                    callback=self.parse_get_all_products,
+                    cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': page_count},
+                )
+            else:
+                File_is_empty = os.stat("razer_products.json").st_size == 0
+                if File_is_empty is True:
+                    print('file is EMPTY!!')
+                    yield razer_products_obj
+                else:
+                    self.compare_prices(razer_products_obj)
+        except:
+            print("HTTPResponse Error!! in second page")
+            time.sleep(10)
+            yield scrapy.http.Request(
+                response.url,
                 callback=self.parse_get_all_products,
                 cb_kwargs={'prev_page_prods': razer_products_obj, 'page_count': page_count},
-                errback=self.handle_error
+                dont_filter=True
             )
-        else:
-            File_is_empty = os.stat("razer_products.json").st_size == 0
-            if File_is_empty is True:
-                print('file is EMPTY!!')
-                yield razer_products_obj
-            else:
-                self.compare_prices(razer_products_obj)
 
     def compare_prices(self, razer_products_obj):
         print('file is not EMPTY!!!')
