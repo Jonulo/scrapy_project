@@ -1,10 +1,12 @@
 import scrapy
-import os
+import os, sys
 import json
 import time
 import smtplib, ssl
 from decouple import config
 from urllib.error import HTTPError
+from scrapy.crawler import CrawlerProcess, CrawlerRunner
+from twisted.internet import reactor
 
 class spider_razer(scrapy.Spider):
     handle_httpstatus_list = [503]
@@ -162,3 +164,33 @@ class spider_razer(scrapy.Spider):
             server.login(sender_email, password)
             server.sendmail(sender_email, receiver_email, message)
 
+
+# while(True):
+#     print("starting spider.")
+#     time.sleep(1)
+#     print(".")
+#     time.sleep(1)
+#     print(".")
+#     time.sleep(10)
+#     process = CrawlerProcess(settings={
+#         "FEEDS": {},
+#     })
+#     process.crawl(spider_razer)
+#     process.start()
+
+while True:
+    print("starting spider.")
+    time.sleep(1)
+    print(".")
+    time.sleep(1)
+    print(".")
+    time.sleep(30)
+    # better use runner than process
+    runner = CrawlerRunner()
+    d = runner.crawl(spider_razer)
+    d.addBoth(lambda _: reactor.stop())
+    reactor.run()
+    time.sleep(0.5)
+    # this function execute a new program replacing the current process
+    # resolve ReactorNotRestartable problem:
+    os.execl(sys.executable, sys.executable, *sys.argv)
