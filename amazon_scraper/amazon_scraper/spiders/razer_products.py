@@ -179,12 +179,13 @@ class spider_razer(scrapy.Spider):
 #     process.start()
 
 while True:
-    print("starting spider.")
-    time.sleep(1)
+    print("starting spider...")
+    time.sleep(1200)
     print(".")
-    time.sleep(1)
-    print(".")
-    time.sleep(30)
+    time.sleep(1200)
+    print("..")
+    time.sleep(1200)
+    print("...")
     # better use runner than process
     runner = CrawlerRunner()
     d = runner.crawl(spider_razer)
