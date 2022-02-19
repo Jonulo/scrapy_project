@@ -7,3 +7,6 @@
 ## pip install -r requirements.txt
 
 ## Create a .env file with the global variables (web_url, email_password, etc.)
+
+## Run spider:
+# Python3 amazon_scraper/spiders/razer_products.py

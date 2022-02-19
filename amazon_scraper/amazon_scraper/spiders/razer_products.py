@@ -27,12 +27,15 @@ class spider_razer(scrapy.Spider):
 
     def parse(self, response):
         try:
-            time.sleep(10)
-            prod_div = response.xpath('//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]')
+            time.sleep(30)
+            # Checar con git diff el cambio que le hice al xpath porque no funciona:
+            prod_div = response.xpath('//div[@data-index]')
+            print("nada {} {}".format(response, prod_div))
             razer_products_obj = {}
             main_web = 'https://www.amazon.com.mx'
 
             for idx, prod in enumerate(prod_div):
+                print("producto {}".format(prod))
                 new_razer_product = {}
                 current_prod = '//div[@class="s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 sg-col sg-col-12-of-16"]['+str(idx)+']'
 
@@ -55,8 +58,8 @@ class spider_razer(scrapy.Spider):
 
         except:
             print("HTTPResponse Error!!")
-            time.sleep(10)
-            yield scrapy.http.Request(response.url, callback=self.parse, dont_filter=True)
+            # time.sleep(10)
+            # yield scrapy.http.Request(response.url, callback=self.parse, dont_filter=True)
 
 
     def parse_get_all_products(self, response, **kwargs):
@@ -180,11 +183,11 @@ class spider_razer(scrapy.Spider):
 
 while True:
     print("starting spider...")
-    time.sleep(1200)
-    print(".")
-    time.sleep(1200)
-    print("..")
-    time.sleep(1200)
+    # time.sleep(400)
+    # print(".")
+    # time.sleep(400)
+    # print("..")
+    # time.sleep(400)
     print("...")
     # better use runner than process
     runner = CrawlerRunner()

@@ -1,0 +1,760 @@
+╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 10:50:06
+╰─⠠⠵ source venv/bin/activate
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 10:50:12
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+^Z
+[1]  + 1578 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 10:56:51
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+^Z
+[2]  + 1607 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 10:58:48
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 195
+    probando = warehouse_offers()_
+                                 ^
+SyntaxError: invalid syntax
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 11:00:22
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=2>
++++++++++
++++++++++
+test0
+test1
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+starting spider warehouse...
+^Z
+[3]  + 1685 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 11:03:54
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+error at the begining
+starting spider warehouse...
+^Z  
+[4]  + 1779 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 11:07:43
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f59eb597940>>) due to exception: [Failure instance: Traceback: <class 'KeyError'>: 'prev_page_prods'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:180:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 180, in handling_errors
+    print("kwargs in error func {}".format(kwargs['prev_page_prods']))
+builtins.KeyError: 'prev_page_prods'
+
+probando 1
+probando 2
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f59eb597940>>) due to exception: [Failure instance: Traceback: <class 'KeyError'>: 'prev_page_prods'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1445:_logConnectionLostMsg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:180:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1445, in _logConnectionLos
+tMsg
+    log.msg("({} Port {} Closed)".format(self._type, self._realPortNumber))
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 180, in handling_errors
+    print("kwargs in error func {}".format(kwargs['prev_page_prods']))
+builtins.KeyError: 'prev_page_prods'
+
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f59eb597940>>) due to exception: [Failure instance: Traceback: <class 'KeyError'>: 'prev_page_prods'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py:1441:mainLoop
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:180:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py", line 1441, in mainLoop
+    log.msg("Main loop terminated.")
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 180, in handling_errors
+    print("kwargs in error func {}".format(kwargs['prev_page_prods']))
+builtins.KeyError: 'prev_page_prods'
+
+starting spider warehouse...
+^Z
+[5]  + 1805 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 11:08:11
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f5668c40940>>) due to exception: [Failure instance: Traceback: <class 'KeyError'>: 'prev_page_prods'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:181:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 181, in handling_errors
+    print("kwargs in error func {}".format(kwargs['prev_page_prods']))
+builtins.KeyError: 'prev_page_prods'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=2>
++++++++++
++++++++++
+test0
+test1
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=3>
++++++++++
++++++++++
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 12:41:35
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+hanling error {'system': '-', 'message': ('TelnetConsole starting on 6025',), 'time': 1641148910.0293312, 'isError': 0, 'log_time': 164114891
+0.0293312, 'log_text': 'TelnetConsole starting on 6025', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_lega
+cy', 'log_system': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f6f380d7880>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f6f3b228940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:184:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 184, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=2>
++++++++++
++++++++++
+test0
+test1
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=3>
++++++++++
++++++++++
+test0
+test2
+test3
+New product incoming...
+key == B08CNNFFZS value: == {'title': 'SAMSUNG Monitor Odyssey Gaming LC49G95TSSLXZX 49" 240Hz Curvatura 1000R, Negro', 'id': 'B08CNNFFZS', '
+link': 'https://www.amazon.com.mx/SAMSUNG-Monitor-Odyssey-LC49G95TSSLXZX-Curvatura/dp/B08CNNFFZS?ufe=app_do%3Aamzn1.fos.d6a47de5-06cb-4416-9a
+bc-48deac71c815', 'current_price': '$39,096.04', 'warehouse_price': '$19,759.51', 'page': 1}
+new product{'title': 'SAMSUNG Monitor Odyssey Gaming LC49G95TSSLXZX 49" 240Hz Curvatura 1000R, Negro', 'id': 'B08CNNFFZS', 'link': 'https://w
+ww.amazon.com.mx/SAMSUNG-Monitor-Odyssey-LC49G95TSSLXZX-Curvatura/dp/B08CNNFFZS?ufe=app_do%3Aamzn1.fos.d6a47de5-06cb-4416-9abc-48deac71c815',
+ 'current_price': '$39,096.04', 'warehouse_price': '$19,759.51', 'page': 1}
+sending email...
+Error sending email
+adding new product...
+hanling error {'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641148924.472707, 'isError': 0, 'log_time': 1641148924.472707,
+ 'log_text': '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system':
+ '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f6f3824b3a0>}
+{'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641148924.472707, 'isError': 0, 'log_time': 1641148924.472707, 'log_text': '
+(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'format'
+: '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f6f3824b3a0>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f6f3b228940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:17:51
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 175
+    await warehouse_products_obj[new_warehouse_product['id']] = new_warehouse_product
+    ^
+SyntaxError: cannot assign to await expression
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:17:52
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+hanling error {'system': '-', 'message': ('TelnetConsole starting on 6025',), 'time': 1641151102.6306107, 'isError': 0, 'log_time': 164115110
+2.6306107, 'log_text': 'TelnetConsole starting on 6025', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_lega
+cy', 'log_system': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fed7576db50>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fed788c5940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=2>
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:84: RuntimeWarning: coroutine 'warehouse_offers.get_products_per_page' was never aw
+aited
+  warehouse_products_obj.update(self.get_products_per_page(list_of_prods, self.page_count))
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Error at next page 2
+hanling error {'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151110.0819557, 'isError': 0, 'log_time': 1641151110.081955
+7, 'log_text': '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system
+': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fed75902160>}
+{'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151110.0819557, 'isError': 0, 'log_time': 1641151110.0819557, 'log_text':
+ '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'forma
+t': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fed75902160>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fed788c5940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1445:_logConnectionLostMsg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1445, in _logConnectionLos
+tMsg
+    log.msg("({} Port {} Closed)".format(self._type, self._realPortNumber))
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+hanling error {'system': '-', 'message': ('Main loop terminated.',), 'time': 1641151110.0904424, 'isError': 0, 'log_time': 1641151110.0904424
+, 'log_text': 'Main loop terminated.', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system':
+ '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fed7575a9d0>}
+{'system': '-', 'message': ('Main loop terminated.',), 'time': 1641151110.0904424, 'isError': 0, 'log_time': 1641151110.0904424, 'log_text': 
+'Main loop terminated.', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'format'
+: '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fed7575a9d0>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fed788c5940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py:1441:mainLoop
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py", line 1441, in mainLoop
+    log.msg("Main loop terminated.")
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+starting spider warehouse...
+^Z
+[8]  + 2129 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:18:35
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+hanling error {'system': '-', 'message': ('TelnetConsole starting on 6025',), 'time': 1641151250.644466, 'isError': 0, 'log_time': 1641151250
+.644466, 'log_text': 'TelnetConsole starting on 6025', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy
+', 'log_system': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f54325b6be0>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f543570e940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+===============
+===============
+response -- <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true&page=2>
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:84: RuntimeWarning: coroutine 'warehouse_offers.get_products_per_page' was never aw
+aited
+  warehouse_products_obj.update(self.get_products_per_page(list_of_prods, self.page_count))
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+Error at next page 2
+hanling error {'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151258.0492551, 'isError': 0, 'log_time': 1641151258.049255
+1, 'log_text': '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system
+': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f543274b1f0>}
+{'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151258.0492551, 'isError': 0, 'log_time': 1641151258.0492551, 'log_text':
+ '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'forma
+t': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f543274b1f0>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f543570e940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:22:04
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+hanling error {'system': '-', 'message': ('TelnetConsole starting on 6025',), 'time': 1641151338.0879824, 'isError': 0, 'log_time': 164115133
+8.0879824, 'log_text': 'TelnetConsole starting on 6025', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_lega
+cy', 'log_system': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f9f79a0f6a0>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f9f7cb61940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+Some error has ocurred 1
+hanling error {'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151339.178855, 'isError': 0, 'log_time': 1641151339.178855,
+ 'log_text': '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system':
+ '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f9f79b95b80>}
+{'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151339.178855, 'isError': 0, 'log_time': 1641151339.178855, 'log_text': '
+(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'format'
+: '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7f9f79b95b80>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7f9f7cb61940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:24:16
+╰─(venv) ⠠⠵ python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+starting spider warehouse...
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/scrapy/extensions/feedexport.py:247: ScrapyDeprecationWarning: Th
+e `FEED_URI` and `FEED_FORMAT` settings have been deprecated in favor of the `FEEDS` setting. Please see the `FEEDS` setting docs for more de
+tails
+  exporter = cls(crawler)
+hanling error {'system': '-', 'message': ('TelnetConsole starting on 6025',), 'time': 1641151470.3241615, 'isError': 0, 'log_time': 164115147
+0.3241615, 'log_text': 'TelnetConsole starting on 6025', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_lega
+cy', 'log_system': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fedf1fc8880>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fedf5119940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1342:startListening
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1342, in startListening
+    log.msg(
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+probando 1
+probando 2
+response <200 https://www.amazon.com.mx/Electr%C3%B3nicos-Usado/s?rh=n%3A9482558011%2Cp_n_condition-type%3A21214166011&fs=true>
+Some error has ocurred 1
+hanling error {'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151471.6400332, 'isError': 0, 'log_time': 1641151471.640033
+2, 'log_text': '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system
+': '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fedf2158160>}
+{'system': '-', 'message': ('(TCP Port 6025 Closed)',), 'time': 1641151471.6400332, 'isError': 0, 'log_time': 1641151471.6400332, 'log_text':
+ '(TCP Port 6025 Closed)', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'forma
+t': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fedf2158160>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fedf5119940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py:1445:_logConnectionLostMsg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/tcp.py", line 1445, in _logConnectionLos
+tMsg
+    log.msg("({} Port {} Closed)".format(self._type, self._realPortNumber))
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+hanling error {'system': '-', 'message': ('Main loop terminated.',), 'time': 1641151471.6483266, 'isError': 0, 'log_time': 1641151471.6483266
+, 'log_text': 'Main loop terminated.', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system':
+ '-', 'format': '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fedf1f95160>}
+{'system': '-', 'message': ('Main loop terminated.',), 'time': 1641151471.6483266, 'isError': 0, 'log_time': 1641151471.6483266, 'log_text': 
+'Main loop terminated.', 'log_format': '{log_text}', 'log_level': <LogLevel=info>, 'log_namespace': 'log_legacy', 'log_system': '-', 'format'
+: '%(log_legacy)s', 'log_legacy': <twisted.logger._stdlib.StringifiableFromEvent object at 0x7fedf1f95160>}
+Temporarily disabling observer LegacyLogObserverWrapper(<bound method warehouse_offers.handling_errors of <warehouse_offers 'warehouse' at 0x
+7fedf5119940>>) due to exception: [Failure instance: Traceback: <class 'AttributeError'>: 'dict' object has no attribute 'check'
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py:1441:mainLoop
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py:51:sync
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py:281:msg
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:147:publishToNewObserver
+--- <exception caught here> ---
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py:82:__call__
+/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py:90:__call__
+amazon_scraper/amazon_scraper/spiders/warehouse_offers.py:185:handling_errors
+]
+Traceback (most recent call last):
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/internet/base.py", line 1441, in mainLoop
+    log.msg("Main loop terminated.")
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/threadable.py", line 51, in sync
+    return function(self, *args, **kwargs)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/python/log.py", line 281, in msg
+    _publishNew(self._publishPublisher, actualEventDict, textFromEventDict)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 147, in publishToNewObse
+rver
+    observer(eventDict)
+--- <exception caught here> ---
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_observer.py", line 82, in __call__
+    observer(event)
+  File "/mnt/c/Users/Georg/Documents/amazon-scrapy/venv/lib/python3.8/site-packages/twisted/logger/_legacy.py", line 90, in __call__
+    self.legacyObserver(event)
+  File "amazon_scraper/amazon_scraper/spiders/warehouse_offers.py", line 185, in handling_errors
+    if failure.check(HttpError):
+builtins.AttributeError: 'dict' object has no attribute 'check'
+
+error at the begining
+starting spider warehouse...
+^Z
+[11]  + 2278 suspended  python3 amazon_scraper/amazon_scraper/spiders/warehouse_offers.py
+(venv) ╭─jonulo at JonuPc in /mnt/c/Users/Georg/Documents/amazon-scrapy on master✘✘✘ 22-01-02 - 13:24:37
+╰─(venv) ⠠⠵ W

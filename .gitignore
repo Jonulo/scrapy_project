@@ -8,6 +8,7 @@ __pycache__/
 
 # local db:
 razer_products.json
+warehouse_products.json
 
 # Distribution / packaging
 .Python
